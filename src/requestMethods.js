@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:500/api/";
+const BASE_URL = "https://react-task-store-backend2.onrender.com/api/";
 
 const TOKEN = JSON.parse(JSON.parse(localStorage.getItem("persist:root")).user).currentUser.accessToken ;
 // const TOKEN = () => {
